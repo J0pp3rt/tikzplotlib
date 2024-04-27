@@ -135,6 +135,24 @@ pip install tikzplotlib
 
 to install.
 
+### IMPORTANT NOTE FROM THE AUTHOR OF THIS FORK
+As you may know, the original repository is not getting updates for years now. This fork merges the fixes provided by community members.
+To install the package provided by this fork locally, 
+```
+git clone https://github.com/JosephMehdiyev/tikzplotlib.git
+cd /your/directory/tikzplotlib
+python -m pip install -e .
+```
+Now check if the package is installed,
+```
+python -m pip list | grep tikzplotlib
+```
+It should give an output like 
+```
+tikzplotlib     0.10.1    /your/directory/tikzplotlib
+```
+
+Enjoy!
 ### Usage
 
 1. Generate your matplotlib plot as usual.
