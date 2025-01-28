@@ -136,10 +136,10 @@ pip install tikzplotlib
 to install.
 
 ### IMPORTANT NOTE FROM THE AUTHOR OF THIS FORK
-As you may know, the original repository is not getting updates for years now. This fork merges the fixes provided by community members.
+As you may know, the original repository is not getting updates for years now. This fork continues on the fork of JosephMehdiyev that fixes some minor issues with deprecated `webcolors` and `numpy v2.0` functions.
 To install the package provided by this fork locally, 
 ```
-git clone https://github.com/JosephMehdiyev/tikzplotlib.git
+git clone https://github.com/j0pp3rt/tikzplotlib.git
 cd /your/directory/tikzplotlib
 python -m pip install -e .
 ```
