@@ -135,9 +135,8 @@ pip install tikzplotlib
 
 to install.
 
-### IMPORTANT NOTE FROM THE AUTHOR OF THIS FORK
-As you may know, the original repository is not getting updates for years now. This fork continues on the fork of JosephMehdiyev that fixes some minor issues with deprecated `webcolors` and `numpy v2.0` functions.
-To install the package provided by this fork locally, 
+### IMPORTANT NOTE FROM THE AUTHOR OF THE COMMUNITY FORK
+As you may know, the original repository is not getting updates for years now. This fork merges the fixes provided by community members. To install the package provided by this fork locally,
 ```
 git clone https://github.com/j0pp3rt/tikzplotlib.git
 cd /your/directory/tikzplotlib
@@ -153,6 +152,10 @@ tikzplotlib     0.10.1    /your/directory/tikzplotlib
 ```
 
 Enjoy!
+
+### IMPORTANT NOTE FROM THE AUTHOR OF THIS FORK
+This fork continues on the fork of JosephMehdiyev. This version fixes some minor issues with deprecated `webcolors`, `matplotlib` and `numpy v2.0` functions, also a PKGBUILD is provided for Arch users.
+
 ### Usage
 
 1. Generate your matplotlib plot as usual.
